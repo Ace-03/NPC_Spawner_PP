@@ -34,7 +34,7 @@ public class Client : MonoBehaviour
             _partKing.Stop();
             _text.SetText(m_SpawnerNPC.m_Shopowner.Speak());
         }
-        else if (Input.GetKeyDown(KeyCode.D))
+        else if (Input.GetKeyDown(KeyCode.F))
         {
             m_SpawnerNPC.SpawnVillagers();
             _partShop.Stop();
@@ -43,7 +43,7 @@ public class Client : MonoBehaviour
             _partKing.Stop();
             _text.SetText(m_SpawnerNPC.m_Farmer.Speak());
         }
-        else if (Input.GetKeyDown(KeyCode.F))
+        else if (Input.GetKeyDown(KeyCode.B))
         {
             m_SpawnerNPC.SpawnVillagers();
             _partShop.Stop();
@@ -52,7 +52,7 @@ public class Client : MonoBehaviour
             _partKing.Stop();
             _text.SetText(m_SpawnerNPC.m_Beggar.Speak());
         }
-        else if (Input.GetKeyDown(KeyCode.G))
+        else if (Input.GetKeyDown(KeyCode.K))
         {
             m_SpawnerNPC.SpawnVillagers();
             _partShop.Stop();
